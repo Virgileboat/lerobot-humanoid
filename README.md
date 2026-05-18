@@ -10,6 +10,17 @@ This workspace groups the full LeRobot humanoid project in one place, from desig
 
 Each folder below is an independent Git repository with its own history/remotes.
 
+## Project Aim
+
+Build an open and practical **low-cost humanoid robot** that people can reproduce.
+
+Current design targets:
+
+- **Cost target:** less than **USD 5,000** for the biped platform hardware (depending on sourcing, shipping, and taxes)
+- **Lightweight structure:** prioritize mass reduction and maintainability
+- **3D-printed first:** most custom mechanical parts are printable and documented
+- **Research-ready:** reproducible stack from CAD to runtime and identification
+
 ## Repository Names
 
 Local folder names are aligned with canonical `origin` repository names:
@@ -29,6 +40,19 @@ Local folder names are aligned with canonical `origin` repository names:
 | `lerobot-humanoid-model` | `Virgileboat/lerobot-humanoid-model` | Versioned model assets + Python helpers (`lerobot_humanoid_models`) | MJCF/URDF assets and constants consumed by runtime/identification |
 | `lerobot-humanoid-runtime` | `Virgileboat/lerobot-humanoid-runtime` | Real robot + simulation runtime, calibration, policy execution, LeRobot integration | Deploy scripts, controllers, calibration flow, data acquisition |
 | `lerobot-humanoid-identification` | `Virgileboat/lerobot-humanoid-identification` | MJWarp replay + CMA-ES parameter identification | Identified simulator parameters and run artifacts |
+
+## What Each Repo Is For
+
+- `lerobot-humanoid-design`:
+  Define robot geometry and control assumptions early, then test feasibility with optimization and OCP experiments before hardware decisions.
+- `lerobot-humanoid-hardware`:
+  Build the physical robot: BOM, STL files, print guidance, assembly steps, wiring, and motor commissioning.
+- `lerobot-humanoid-model`:
+  Provide shared robot model assets (`MJCF`/`URDF`) and constants that other repos import.
+- `lerobot-humanoid-runtime`:
+  Make the robot move in simulation and on real hardware (controllers, calibration, policy execution, deployment flow).
+- `lerobot-humanoid-identification`:
+  Improve simulator realism by fitting parameters from real data with batched replay and CMA-ES.
 
 ## How The Repos Connect
 
