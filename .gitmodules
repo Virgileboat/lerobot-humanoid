@@ -17,4 +17,4 @@
 [submodule "lerobot-humanoid-runtime"]
 	path = lerobot-humanoid-runtime
 	url = git@github.com:Virgileboat/lerobot-humanoid-runtime.git
-	branch = robot_pi_bundle_lerobot_submodule_test
+	branch = main
