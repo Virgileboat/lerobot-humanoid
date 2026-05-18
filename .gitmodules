@@ -1,0 +1,20 @@
+[submodule "lerobot-humanoid-design"]
+	path = lerobot-humanoid-design
+	url = git@github.com:Virgileboat/lerobot-humanoid-design.git
+	branch = main
+[submodule "lerobot-humanoid-hardware"]
+	path = lerobot-humanoid-hardware
+	url = git@github.com:Virgileboat/lerobot-humanoid-hardware.git
+	branch = main
+[submodule "lerobot-humanoid-identification"]
+	path = lerobot-humanoid-identification
+	url = git@github.com:Virgileboat/lerobot-humanoid-identification.git
+	branch = main
+[submodule "lerobot-humanoid-model"]
+	path = lerobot-humanoid-model
+	url = git@github.com:Virgileboat/lerobot-humanoid-model.git
+	branch = main
+[submodule "lerobot-humanoid-runtime"]
+	path = lerobot-humanoid-runtime
+	url = git@github.com:Virgileboat/lerobot-humanoid-runtime.git
+	branch = robot_pi_bundle_lerobot_submodule_test
