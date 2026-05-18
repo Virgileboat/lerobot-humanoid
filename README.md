@@ -16,7 +16,7 @@ Build an open and practical **low-cost humanoid robot** that people can reproduc
 
 Current design targets:
 
-- **Cost target:** less than **USD 5,000** for the biped platform hardware (depending on sourcing, shipping, and taxes)
+- **Cost target:** less than **USD 5,000** for the hardware (depending on sourcing, shipping, and taxes)
 - **Lightweight structure:** prioritize mass reduction and maintainability
 - **3D-printed first:** most custom mechanical parts are printable and documented
 - **Research-ready:** reproducible stack from CAD to runtime and identification
