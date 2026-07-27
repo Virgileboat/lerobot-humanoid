@@ -91,3 +91,7 @@ for repo in lerobot-humanoid-*; do
   echo
  done
 ```
+
+## Project Origin
+
+Initially developed by **Virgile Batto** during his time at Hugging Face LeRobot.
